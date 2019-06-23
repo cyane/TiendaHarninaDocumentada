@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <!-- Do not use Project Properties customizer when editing this file manually. 
+ To prevent the customizer from showing, create nbproject/project.properties file and enter 
+auxiliary.show.customizer=false 
+property there. Adding 
+auxiliary.show.customizer.message=<message>
+ will show your customized message when someone attempts to open the customizer.  -->
+            <name>qweqweqwe</name>
+            <properties>
+                <property name="ant.script">ciclo18b.iml</property>
+            </properties>
+            <folders>
+                <source-folder>
+                    <label>src</label>
+                    <type>java</type>
+                    <location>src</location>
+                </source-folder>
+                <source-folder>
+                    <label>web</label>
+                    <type>doc_root</type>
+                    <location>web</location>
+                </source-folder>
+                <source-folder>
+                    <label>WEB-INF</label>
+                    <type>web_inf</type>
+                    <location>web/WEB-INF</location>
+                </source-folder>
+            </folders>
+            <ide-actions/>
+            <view>
+                <items>
+                    <source-folder style="tree">
+                        <label>Web Pages</label>
+                        <location>web</location>
+                    </source-folder>
+                    <source-folder style="tree">
+                        <label>WEB-INF Content</label>
+                        <location>web/WEB-INF</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>src</label>
+                        <location>src</location>
+                    </source-folder>
+                    <source-file>
+                        <location>${ant.script}</location>
+                    </source-file>
+                </items>
+                <context-menu/>
+            </view>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/4">
+            <compilation-unit>
+                <package-root>src</package-root>
+                <classpath mode="compile">src</classpath>
+                <built-to>lib</built-to>
+                <source-level>1.8</source-level>
+            </compilation-unit>
+        </java-data>
+        <web-data xmlns="http://www.netbeans.org/ns/freeform-project-web/1">
+            <web-module>
+                <doc-root>web</doc-root>
+                <classpath/>
+                <context-path/>
+                <j2ee-spec-level>1.5</j2ee-spec-level>
+            </web-module>
+        </web-data>
+    </configuration>
+</project>
